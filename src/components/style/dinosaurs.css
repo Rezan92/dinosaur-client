@@ -1,0 +1,55 @@
+.title{
+  background-color: #727155;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50%;
+}
+.column {
+  float: left;
+  padding: 15px;
+  margin: 20px;
+  background-color: #5e5d4e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.dinosaur-img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+  height: 270px;
+}
+
+.row{
+  background-color: #bdbba6;
+  border:4px solid black;
+  width: 80%;
+  padding-left:1em;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.gallery {
+  text-align: center;
+  background-color: #574e3e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border:4px solid black;
+}
+.link-name{
+  color: rgb(187, 182, 145);
+}
